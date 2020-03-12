@@ -12,4 +12,16 @@ K transistor PNP
 F ~
 $ENDCMP
 #
+$CMP МП42Б
+D PNP transistor, base/emitter/collector
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP П214А
+D PNP transistor, base/emitter/collector
+K transistor PNP
+F ~
+$ENDCMP
+#
 #End Doc Library
