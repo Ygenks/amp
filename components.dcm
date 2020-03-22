@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP -20V
+D Power symbol creates a global label with name "-20V"
+K power-flag
+$ENDCMP
+#
 $CMP МП39Б
 D PNP transistor, base/emitter/collector
 K transistor PNP
