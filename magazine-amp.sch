@@ -169,7 +169,7 @@ U 1 1 5E3B0E7B
 P 3200 2550
 F 0 "RV1" H 3131 2596 50  0000 R CNN
 F 1 "51K" H 3131 2505 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3200 2550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3200 2550 50  0001 C CNN
 F 3 "~" H 3200 2550 50  0001 C CNN
 	1    3200 2550
 	1    0    0    -1  
@@ -213,7 +213,7 @@ U 1 1 5E3B333C
 P 3650 3200
 F 0 "RV2" H 3581 3246 50  0000 R CNN
 F 1 "150K" H 3581 3155 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3650 3200 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3650 3200 50  0001 C CNN
 F 3 "~" H 3650 3200 50  0001 C CNN
 	1    3650 3200
 	1    0    0    -1  
@@ -313,7 +313,7 @@ U 1 1 5E3C04A9
 P 5150 3300
 F 0 "RV3" H 5080 3346 50  0000 R CNN
 F 1 "150K" H 5080 3255 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5150 3300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5150 3300 50  0001 C CNN
 F 3 "~" H 5150 3300 50  0001 C CNN
 	1    5150 3300
 	-1   0    0    -1  
@@ -415,7 +415,7 @@ U 1 1 5E3D64A6
 P 6150 1300
 F 0 "RV4" H 6080 1346 50  0000 R CNN
 F 1 "47K" H 6080 1255 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6150 1300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6150 1300 50  0001 C CNN
 F 3 "~" H 6150 1300 50  0001 C CNN
 	1    6150 1300
 	-1   0    0    -1  
@@ -676,7 +676,7 @@ U 1 1 5E41E9DB
 P 8000 3000
 F 0 "RV5" H 7930 3046 50  0000 R CNN
 F 1 "2K2" H 7930 2955 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8000 3000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8000 3000 50  0001 C CNN
 F 3 "~" H 8000 3000 50  0001 C CNN
 	1    8000 3000
 	-1   0    0    -1  
@@ -1015,4 +1015,10 @@ Wire Wire Line
 	9450 1000 10200 1000
 Text Label 10000 1000 0    50   ~ 0
 -20V
+Text Notes 3250 2400 0    50   ~ 0
+Усиление
+Text Notes 3250 3050 0    50   ~ 0
+Низкие
+Text Notes 5200 3150 0    50   ~ 0
+Высокие
 $EndSCHEMATC
